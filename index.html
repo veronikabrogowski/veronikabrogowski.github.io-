@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veronika Brogowski | Portfolio</title>
+  <meta name="description" content="Osobní portfolio Veroniky Brogowski.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #faf8f5;
+      color: #292720;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 900px;
+      margin: auto;
+      padding: 28px 24px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    nav a {
+      color: inherit;
+      text-decoration: none;
+      margin-left: 16px;
+    }
+    .hero { padding-top: 90px; padding-bottom: 90px; }
+    .tag { color: #8a715c; text-transform: uppercase; letter-spacing: 3px; }
+    h1 { font-size: clamp(42px, 8vw, 76px); line-height: 1.1; }
+    h2 { margin-top: 0; }
+    .button {
+      display: inline-block;
+      background: #292720;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+    section { padding: 36px 0; border-top: 1px solid #e4ded5; }
+    footer { color: #716b63; font-size: 14px; }
+    @media (max-width: 550px) {
+      header { align-items: flex-start; flex-direction: column; }
+      nav a { margin: 0 14px 0 0; }
+      .hero { padding-top: 50px; padding-bottom: 55px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>VERONIKA BROGOWSKI</strong>
+    <nav>
+      <a href="#omne">O mně</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="tag">Osobní portfolio</p>
+      <h1>Ahoj, jsem Veronika.</h1>
+      <p>Vítej na mém osobním webu. Tady najdeš informace o mně, mé práci a projektech.</p>
+      <a class="button" href="#portfolio">Prohlédnout portfolio</a>
+    </div>
+
+    <section id="omne">
+      <h2>O mně</h2>
+      <p>Sem napiš něco o sobě, svých zkušenostech, zájmech a o tom, čemu se věnuješ.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Moje portfolio</h2>
+      <p>Sem přidáme ukázky tvé práce, fotografie, projekty nebo další věci, kterými se chceš pochlubit.</p>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Můžeš mě kontaktovat na e-mailu:</p>
+      <p><a href="mailto:tvuj@email.cz">tvuj@email.cz</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Veronika Brogowski
+  </footer>
+</body>
+</html>
